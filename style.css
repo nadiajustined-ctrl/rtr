@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100%;
+    height:43vh;
+}
+.rouge{
+    position: absolute;
+    width: 520px;
+    height: 280px;
+    border: 10px solid red;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+}
+.rouge img{
+    height: 34vh;
+    width: 100%;
+}
+.jaune{
+    position: absolute;
+    border: 15px solid yellow;
+    bottom: 0;
+    right: 0;
+    bottom: 170px;
+    right: 380px;
+    width:320px;
+    height: 500px;
+    background-color: #1e1e1e;
+    color: #fff;
+    justify-content: space-between;
+
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 12px;
+}
+.amount{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.balance{
+    font-size: 13px;
+    color: #888;
+}
+.card3{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 14px;
+    color: #aaa;
+}
+button{
+    border: 1px solid #fff;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #adff2f;
+    margin: 7px;
+}
+.buttom {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+.card5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #888;
+}
+
+.bleu{
+    border: 10px solid blue;
+    width: 530px;
+    height: 160px;
+    position: flex;
+    justify-content: flex-end;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: monospace;
+    justify-content: space-between;
+}
+.bleu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.bleu li a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.exchange{
+    display: flex;
+    border-bottom: 2px;
+    text-align: center;
+    justify-content: space-between;
+    gap: 40%;   
+    font-size: 1.5rem;
+}
+.uniswap{
+    display: flex;
+    border-bottom: 2px;
+    justify-content: space-between;
+    gap: 40%;   
+    font-size: 1.3rem;
+} 
+.sushiswap{
+     display: flex;
+    border-bottom: 2px;
+    justify-content: space-between;
+    gap: 40%;   
+    font-size: 1.2rem;
+}
+.pancakeswap{
+     display: flex;
+    border-bottom: 2px;
+    justify-content: space-between;
+    gap: 40%;   
+    font-size: 1.2rem;
+}
